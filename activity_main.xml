@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/respuesta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0202"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/numero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Introduce número"
+        android:inputType="number"
+        android:verticalScrollbarPosition="defaultPosition" />
+
+    <EditText
+        android:id="@+id/numero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Introduce número"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/sumaBoton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUMA" />
+
+    <Button
+        android:id="@+id/restaBoton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESTA" />
+
+    <Button
+        android:id="@+id/multiplicarBoton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MULTIPLICAR" />
+
+    <Button
+        android:id="@+id/dividirBoton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIVIDIR" />
+
+</LinearLayout>
